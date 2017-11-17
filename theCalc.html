@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<meta name="author" content="Dishank Bansal">
+	<meta name="keyword" content="calculator, calculate, dishank, addition, subtraction">
+	<link rel="stylesheet" type="text/css" href="style.css"></link>
+	<link rel="shortcut icon" type="image/png" href="icon.png">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div id="banner">
+		<h1>The &nbsp; Calc</h1>
+	</div>
+	<div id="main">
+		<div id="calc">
+			<div  id="display" ></div>
+			<div  class= "numb key" onclick="add('7')">7</div>
+			<div  class= "numb key" onclick="add('8')">8</div>
+			<div  class= "numb key" onclick="add('9')">9</div>
+			<div  class= "operators key" onclick="add('+')">+</div>
+			<div  class= "numb key" onclick="add('4')">4</div>
+			<div  class= "numb key" onclick="add('5')">5</div>
+			<div  class= "numb key" onclick="add('6')">6</div>
+			<div  class= "operators key" onclick="add('-')">-</div>
+			<div  class= "numb key" onclick="add('1')">1</div>
+			<div  class= "numb key" onclick="add('2')">2</div>
+			<div  class= "numb key" onclick="add('3')">3</div>
+			<div  class= "operators key" onclick="add('*')">X</div>
+			<div  class= "numb key" onclick="add('.')"><b>.</b></div>
+			<div  class= "numb key" onclick="add('0')">0</div>
+			<div  class= "numb key" onclick="add('pi')"><b>&#960;</b></div>
+			<div  class= "operators key" onclick="add('/')">&#247;</div>
+			<div  class= "key" style="background-color: red;" onclick="clean()">C</div>
+			<div  class= "operators key" onclick="add('(')">(</div>
+			<div  class= "operators key" onclick="add(')')">)</div>
+			<div  class= "key" id="equalKey"  onclick="equalTo()">=</div>
+			
+
+		</div>
+	</div>
+</body>
+</html>
